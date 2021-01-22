@@ -17,11 +17,17 @@
         <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
         <field name="arch" type="xml">
             <field name="partner_id" position="after">
-                
+                <xpath expr="//page[@name='lead']" position="replace">
+                    <page string="Módulo 1">
                         <group>
                             <field name="x_datos1" />
                         </group>
-                    
+                        <group string="MÓDULO 1 - REGISTRO" style="line-height: 25px;">
+                        <group>
+                            <field name="x_datos1" />
+                        </group>
+                    </page>
+                </xpath> 
             </field>
         </field>
     </record>
