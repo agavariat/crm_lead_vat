@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record model="ir.ui.view" id="form_view">
+    <record id="crm_case_form_view_oppor_inherit_product" model="ir.ui.view">
+        <field name="name">crm.lead.oppor.inherited</field>
         <field name="model">crm.lead</field>
-        <field name="inherit_id" ref="crm.crm_case_form_view_leads"/>
+        <field name="inherit_id" ref="crm.crm_lead_view_form" />
         <field name="arch" type="xml">
-            <page string="Módulo 1">
-                        <group>
-                            <field name="x_datos1"/>
-                        </group>
-                        <group string="MÓDULO 1 - REGISTRO" style="line-height: 25px;">
-                            <group>
-                                <field name="x_datos1"/>
-                            </group>
-                        </group>
-                    </page>
+            <xpath expr="//group/group[5]" position="replace">
+              <page string="Módulo 1">
+        	 	<group>
+                     <field name="x_datos1" />               
+                </group>
+              </page>
+            </xpath>
         </field>
     </record>
-
-    <!--record model="ir.ui.view" id="opportunity_form_view">
-        <field name="model">crm.lead</field>
-        <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
-        <field name="arch" type="xml">
-            <field name="partner_id" position="after">
-                <field name="vat"/>
-            </field>
-        </field>
-    </record-->
 </odoo>
