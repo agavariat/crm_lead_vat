@@ -21,8 +21,8 @@
                 <page string="Organización y Administración (15%)">
                     <group string="Organización" style="line-height: 25px;" colspan="4">
                         <div> 
-                            <field name="x_org1" style = "width: 10%%;"/>
-                            <field name="x_org2" style = "width: 10%%;"/>
+                            <field name="x_org1" style = "width: 100%%;"/>
+                            <field name="x_org2" style = "width: 100%%;"/>
                         </div>
                     </group>
                 </page>
