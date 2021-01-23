@@ -21,6 +21,7 @@
                 <page string="Organización y Administración (15%)">
                     <group string="Organización" style="line-height: 25px;">
                         <field name="x_org1" />
+                        <field name="x_org2" />
                     </group>
                 </page>
             </xpath>
