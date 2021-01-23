@@ -19,8 +19,8 @@
             </xpath>
             <xpath expr="//page[@name='lead']" position="before">
                 <page string="Organización y Administración (15%)">
-                    <group string="Organización" style="line-height: 25px;" style = "width: 10%;">
-                        <field name="x_org1" />
+                    <group string="Organización" style="line-height: 25px;">
+                        <field name="x_org1" style = "width: 10%;"/>
                         <field name="x_org2" />
                     </group>
                 </page>
