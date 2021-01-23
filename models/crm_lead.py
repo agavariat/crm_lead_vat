@@ -12,12 +12,22 @@ class Lead(models.Model):
         help="Tax Identification Number. The first 2 characters are the "
              "country code.")
 
+    x_org1 = fields.Selection(
+        #string="Sexo",
+        [
+            ('52', 'No Aplica'),
+            ('50', 'Si'),
+            ('53', 'En Proceso'),
+            ('51', 'No'),
+        ], "¿Cuenta la empresa con plan de trabajo semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
+    )
     x_datos1 = fields.Selection(
         #string="Sexo",
         [
+            ('52', 'No Aplica'),
             ('50', 'Si'),
+            ('53', 'En Proceso'),
             ('51', 'No'),
-
-        ], "ACEPTA ENTREGARLE A UNIMINUTO LOS DATOS GENERALES SUYOS Y DEL MICRONEGOCIO CON FINES ACADÉMICOS",
+        ], "¿Cuenta la empresa con plan de trabajo semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
     )
     

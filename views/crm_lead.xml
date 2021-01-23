@@ -14,18 +14,15 @@
         <field name="model">crm.lead</field>
         <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
         <field name="arch" type="xml">
-            <xpath expr="//page[@name='lead']" position="before">
-                <page string="Módulo 1">
-                    <group>
-                        <field name="x_datos1" />
-                    </group>
-                </page>
-            </xpath>
             <xpath expr="//page[@name='lead']" position="attributes" > 
                  <attribute name='invisible'>1</attribute> 
             </xpath>
-            <xpath expr="field[@name='description']" position="attributes"/> 
-                 <attribute name='invisible'>1</attribute> 
+            <xpath expr="//page[@name='lead']" position="before">
+                <page string="Organización y Administración (15%)">
+                    <group string="Organización" style="line-height: 25px;">
+                        <field name="x_org1" />
+                    </group>
+                </page>
             </xpath>
         </field>
     </record>
