@@ -21,6 +21,9 @@
                     </group>
                 </page>
             </xpath>
+            <xpath expr="//page[@name='lead']" position="attributes" > 
+                 <attribute name='invisible'>1</attribute> 
+            </xpath>
         </field>
     </record>
 
