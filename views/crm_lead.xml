@@ -16,7 +16,7 @@
         <field name="model">crm.lead</field>
         <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
         <field name="arch" type="xml">
-            <xpath expr="//page[@string='Internal Notes']" position="after">
+            <xpath expr="//page[@lead='lead']" position="replace">
                 <page string="Módulo 1">
                     <group>
                         <field name="x_datos1" />
