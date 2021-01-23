@@ -17,9 +17,11 @@
         <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
         <field name="arch" type="xml">
             <xpath expr="//page[@name='lead']" position="replace">
-            <group attrs="{'invisible': [('type', '=', 'lead')]}">
-                <field name="is_blacklisted"/>
-            </group>
+                <page string="Módulo 1">
+                    <group>
+                        <field name="x_datos1" />
+                    </group>
+                </page>
             </xpath>
         </field>
     </record>
