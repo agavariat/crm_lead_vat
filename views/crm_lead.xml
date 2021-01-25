@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!--record model="ir.ui.view" id="form_view">
-        <field name="model">crm.lead</field>
-        <field name="inherit_id" ref="crm.crm_case_form_view_leads"/>
-        <field name="arch" type="xml">
-            <xpath expr="//page[@name='lead']" position="">
-                
-            </xpath>
-        </field>
-    </record-->
-
     <record model="ir.ui.view" id="opportunity_form_view">
         <field name="model">crm.lead</field>
         <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
@@ -21,10 +11,9 @@
                 <page string="Organización y Administración">
                     <sheet>
                         <group string="Organización y Administración (15%)" col="4">
-                            <h5>hola</h5><br/>
-                                <field name="x_org1"/>
+                            <h5>hola</h5>
                         </group>
-                        <group string="Organización y Administración (15%)" col="4">
+                        <group col="4">
                             <field name="x_org1"/>
                         </group>
                     </sheet>
@@ -32,6 +21,4 @@
             </xpath>
         </field>
     </record>
-
-    
 </odoo>
