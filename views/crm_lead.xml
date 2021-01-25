@@ -21,7 +21,7 @@
                 <page string="Organización y Administración">
                     <sheet>
                         <group string="Organización y Administración (15%)" col="4">
-                            <group string="Organización"> 
+                            <group string="Organización" col="4"> 
                                 <field name="x_org1"/>
                             </group>
                         </group>
