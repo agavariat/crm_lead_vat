@@ -13,8 +13,8 @@
                         <group string="Organización y Administración (15%)" col="4">
                             <h4>Organización</h4>
                             <div/>
-                            <field name="x_org1" col="4"/>
-                            <field name="vat" col="4"/>
+                            <field name="x_org1"/>
+                            <field name="vat"/>
                         </group>
                         <group col="4">
                             <field name="x_org1" invisible="1"/>
