@@ -12,13 +12,13 @@
                     <sheet>
                         <group style = "line-height: 25px;" string="Organización y Administración (15%)">
                             <h4>Organización</h4>
-                            <field name="x_org1"/>
-                            <field name="x_org2"/>
-                            <field name="x_org3"/>
-                            <field name="x_org4"/>
-                            <field name="x_org5"/>
-                            <field name="x_org6"/>
-                            <field name="x_org7"/>
+                            <field name="x_org1" style="width:40%%"/>
+                            <field name="x_org2" style="width:40%%"/>
+                            <field name="x_org3" style="width:40%%"/>
+                            <field name="x_org4" style="width:40%%"/>
+                            <field name="x_org5" style="width:40%%"/>
+                            <field name="x_org6" style="width:40%%"/>
+                            <field name="x_org7" style="width:40%%"/>
                         </group>
                         <group>
                             <h4>Procesos Administrativos/Contables</h4>
