@@ -10,11 +10,9 @@
             <xpath expr="//page[@name='lead']" position="before">
                 <page string="Organización y Administración">
                     <sheet>
-                        <group string="Organización y Administración (15%)" col="4">
+                        <group string="Organización y Administración (15%)">
                             <h4>Organización</h4>
-                            <div/>
                             <field name="x_org1"/>
-                            <div/>
                             <field name="vat"/>
                         </group>
                         <group col="4">
