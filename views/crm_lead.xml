@@ -14,11 +14,17 @@
                             <h4>Organización</h4>
                             <field name="x_org1"/>
                             <field name="x_org2"/>
+                            <field name="x_org3"/>
+                            <field name="x_org4"/>
+                            <field name="x_org5"/>
+                            <field name="x_org6"/>
+                            <field name="x_org7"/>
                         </group>
                         <group>
                             <h4>Procesos Administrativos/Contables</h4>
                             <field name="x_org1"/>
                             <field name="x_org1"/>
+                            
                         </group>
                         <group string="Tecnologías a impulsar en procesos administrativos y contables en las MIPYME">
                             <h4>Organización</h4>
