@@ -10,12 +10,23 @@
             <xpath expr="//page[@name='lead']" position="before">
                 <page string="Organización y Administración">
                     <sheet>
-                        <group string="Organización y Administración (15%)">
+                        <group clo="2" string="Organización y Administración (15%)">
                             <h4>Organización</h4>
                             <field name="x_org1"/>
                             <field name="x_org2"/>
                         </group>
-                        <group col="4">
+                        <group>
+                            <h4>Procesos Administrativos/Contables</h4>
+                            <field name="x_org1"/>
+                            <field name="x_org1"/>
+                        </group>
+                        <group string="Tecnologías a impulsar en procesos administrativos y contables en las MIPYME">
+                            <h4>Organización</h4>
+                            <field name="x_org1"/>
+                            <field name="x_org1"/>
+                        </group>
+                        <group>
+                            <h4>Procesos Administrativos/Contables</h4>
                             <field name="x_org1"/>
                             <field name="x_org1"/>
                         </group>
