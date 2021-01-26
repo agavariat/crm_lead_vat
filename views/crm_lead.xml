@@ -9,7 +9,7 @@
             </xpath>
             <xpath expr="//page[@name='lead']" position="before">
                 <page string="Organización y Administración">
-                    <!--sheet-->
+                    <sheet>
                         <group style = "line-height: 25px;" string="Organización y Administración (15%)">
                             <h4>Organización</h4>
                             <field name="x_org1"/>
@@ -36,7 +36,7 @@
                             <field name="x_org1"/>
                             <field name="x_org1"/>
                         </group>
-                    <!--/sheet-->
+                    </sheet>
                 </page>
             </xpath>
         </field>
