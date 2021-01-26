@@ -18,7 +18,7 @@ class Lead(models.Model):
             ('50', 'Si'),
             ('53', 'En Proceso'),
             ('51', 'No'),
-        ], "¿Cuenta la empresa con plan de trabajo semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
+        ], "1. ¿Cuenta la empresa con plan de trabajo semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
     )
     x_org2 = fields.Selection(
         [
@@ -26,6 +26,6 @@ class Lead(models.Model):
             ('50', 'Si'),
             ('53', 'En Proceso'),
             ('51', 'No'),
-        ], "¿Cuenta la empresa con plan de trabajo semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
+        ], "2. ¿Cuenta o elabora la empresa presupuesto semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
     )
     

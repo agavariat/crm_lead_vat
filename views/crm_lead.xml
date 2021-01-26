@@ -13,11 +13,11 @@
                         <group string="Organización y Administración (15%)">
                             <h4>Organización</h4>
                             <field name="x_org1"/>
-                            <field name="vat"/>
+                            <field name="x_org2"/>
                         </group>
                         <group col="4">
-                            <field name="x_org1" invisible="1"/>
-                            <field name="x_org1" invisible="1"/>
+                            <field name="x_org1"/>
+                            <field name="x_org1"/>
                         </group>
                     </sheet>
                 </page>
