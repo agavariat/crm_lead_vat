@@ -16,6 +16,8 @@
                                 <label for="x_org1" style="width:40%%"/>
                                 <field name="x_org1" style="width:40%%"/>
                             </div>
+                            <div>
+                            </div>
                             <div class="oe_left oe_title"> 
                                 <label for="x_org1" style="width:40%%"/>
                                 <field name="x_org1" style="width:40%%"/>
