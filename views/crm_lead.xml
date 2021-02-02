@@ -14,13 +14,13 @@
                             <h4>Organización</h4>
                             <div class="oe_left oe_title">  
                             </div>
-                            <div>
-                                <label for="x_org1" style="width:40%%"/>
-                                <field name="x_org1" style="width:40%%"/>
+                            <div class="oe_left oe_title">
+                                <label for="x_org1" style="width:25%%"/>
+                                <field name="x_org1" style="width:25%%"/>
                             </div>
                             <div class="oe_left oe_title"> 
-                                <label for="x_org1" style="width:40%%"/>
-                                <field name="x_org1" style="width:40%%"/>
+                                <label for="x_org2" style="width:40%%"/>
+                                <field name="x_org2" style="width:40%%"/>
                             </div>
                             <field name="x_org2" style="width:40%%"/>
                             <field name="x_org3" style="width:40%%"/>
