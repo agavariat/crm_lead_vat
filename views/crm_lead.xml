@@ -18,8 +18,6 @@
                                 <div/>
                                 <label for="x_org1"/>
                                 <field name="x_org1"/>
-                            </div>
-                            <div class="oe_left oe_title"> 
                                 <label for="x_org2" />
                                 <field name="x_org2"/>
                             </div>
