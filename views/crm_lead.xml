@@ -12,11 +12,11 @@
                     <sheet>
                         <group style = "line-height: 25px;" string="Organización y Administración (15%)">
                             <h4>Organización</h4>
-                            <div class="oe_left oe_title"> 
-                                <label for="x_org1" style="width:40%%"/>
-                                <field name="x_org1" style="width:40%%"/>
+                            <div class="oe_left oe_title">  
                             </div>
                             <div>
+                                <label for="x_org1" style="width:40%%"/>
+                                <field name="x_org1" style="width:40%%"/>
                             </div>
                             <div class="oe_left oe_title"> 
                                 <label for="x_org1" style="width:40%%"/>
