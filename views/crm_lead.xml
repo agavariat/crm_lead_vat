@@ -18,7 +18,7 @@
                                 <label for="x_org1" style="width:110%%"/>
                             </div>
                             <div>
-                                <field name="x_org1"/>
+                                <field name="x_org1" style="width:110%%"/>
                             </div>
                             <field name="x_org2" style="width:40%%"/>
                             <field name="x_org3" style="width:40%%"/>
