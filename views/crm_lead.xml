@@ -17,16 +17,20 @@
                             <div>
                                 <label for="x_org1" style="width:110%%"/>
                                 <label for="x_org2" style="width:110%%"/>
+                                <label for="x_org1" style="width:110%%"/>
+                                <label for="x_org2" style="width:110%%"/>
                             </div>
                             <div>
-                                <field name="x_org1" style="width:30%%" class="oe_right oe_title_box_field"/>
+                                <field name="x_org1" style="width:30%%" class="oe_right oe_title_box_field"/><br/>
+                                <field name="x_org2" style="width:30%%" class="oe_right oe_title_box_field"/>
+                                <field name="x_org1" style="width:30%%" class="oe_right oe_title_box_field"/><br/>
                                 <field name="x_org2" style="width:30%%" class="oe_right oe_title_box_field"/>
                                 </div>
                                 
                         </group>
                         <group>
                             <h4>Procesos Administrativos/Contables</h4>
-                            <field name="x_org1"/>
+                            <field name="x_org1"/><br/>
                             <field name="x_org1"/>                            
                         </group>
                         <group string="Tecnologías a impulsar en procesos administrativos y contables en las MIPYME">
