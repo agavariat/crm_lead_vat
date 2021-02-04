@@ -12,8 +12,8 @@
                     <sheet>
                         <group style = "line-height: 25px;" string="Organización y Administración (15%)">
                             <h4>Organización</h4>
-                            <field name="x_org1"/><br/>
-                            <field name="x_org2"/><br/>                      
+                            <field name="x_org1" style="width:120%%"/><br/>
+                            <field name="x_org2" style="width:120%%"/><br/>                      
                         </group>
                     </sheet>
                 </page>
