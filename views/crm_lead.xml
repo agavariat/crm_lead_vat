@@ -14,8 +14,10 @@
                             <h4>Organización</h4>                   
                         </group>
                         <group>
+                            <div>
                             <label for="x_org1" style="width:110%%"/> 
                             <field name="x_org1" style="width:120%%"/><br/>
+                            </div>
                         </group>
                     </sheet>
                 </page>
