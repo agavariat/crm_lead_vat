@@ -22,9 +22,7 @@
                             </div>
                             <div>
                                 <field name="x_org1" style="width:60%%" class="oe_right"/>
-                            </div>
-                            <div>
-                                <field name="x_org2" style="width:60%%" class="oe_right"/>
+                                <field name="x_org1" style="width:60%%" class="oe_right"/>
                             </div>
                             <div>
                                 <field name="x_org1" style="width:60%%" class="oe_right oe_title_box_field"/><br/>
