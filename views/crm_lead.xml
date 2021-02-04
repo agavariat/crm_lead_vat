@@ -30,7 +30,7 @@
                             <field name="x_org8" style="width:80%%"/><br/>
                             <field name="x_org9" style="width:80%%"/><br/>
                             <field name="x_org10" style="width:80%%"/><br/>
-                            <field name="x_org11" style="width:80%%"/><br/>
+                            <!--field name="x_org11" style="width:80%%"/--><br/>
                             <field name="x_org12" style="width:80%%"/><br/>
                             <field name="x_org13" style="width:80%%"/><br/>
                             <!--field name="x_org14" style="width:80%%"/--><br/>
