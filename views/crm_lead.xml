@@ -18,6 +18,9 @@
                             <label for="x_org1" style="width:110%%"/> 
                             <field name="x_org1" style="width:30%%"/><br/>
                             </div>
+                            <div>
+                            <field name="x_org1" style="width:30%%"/><br/>
+                            </div>
                         </group>
                     </sheet>
                 </page>
