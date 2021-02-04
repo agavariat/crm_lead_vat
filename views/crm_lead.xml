@@ -14,7 +14,6 @@
                             <h4>Organización</h4>                   
                         </group>
                         <group>
-                            <div>
                                 <field name="x_org1" style="width:60%%" class="oe_right"/><br/>
                                 <field name="x_org1" style="width:60%%" class="oe_right"/><br/>
                         </group>
