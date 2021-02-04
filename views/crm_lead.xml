@@ -14,13 +14,13 @@
                             <h4>Organización</h4>                   
                         </group>
                         <group>
-                                <field name="x_org1" style="width:80%%"/><br/>
-                                <field name="x_org2" style="width:80%%"/><br/>
-                                <field name="x_org3" style="width:80%%"/><br/>
-                                <field name="x_org4" style="width:80%%"/><br/>
-                                <field name="x_org5" style="width:80%%"/><br/>
-                                <field name="x_org6" style="width:80%%"/><br/>
-                                <field name="x_org6" style="width:80%%"/><br/>
+                            <field name="x_org1" style="width:80%%"/><br/>
+                            <field name="x_org2" style="width:80%%"/><br/>
+                            <field name="x_org3" style="width:80%%"/><br/>
+                            <field name="x_org4" style="width:80%%"/><br/>
+                            <field name="x_org5" style="width:80%%"/><br/>
+                            <field name="x_org6" style="width:80%%"/><br/>
+                            <field name="x_org6" style="width:80%%"/><br/>
                         </group>
                     </sheet>
                 </page>
