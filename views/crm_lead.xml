@@ -19,8 +19,8 @@
                             <label for="x_org1" style="width:110%%"/> 
                             </div>
                             <div>
-                            <field name="x_org1" style="width:30%%" class="rallign"/><br/>
-                            <field name="x_org1" style="width:30%%" class="rallign"/><br/>
+                            <field name="x_org1" style="width:30%%" class="oe_right"/><br/>
+                            <field name="x_org1" style="width:30%%" class="oe_right"/><br/>
                             </div>
                         </group>
                     </sheet>
