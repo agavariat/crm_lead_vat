@@ -21,10 +21,14 @@
                                 <label for="x_org2" style="width:120%%"/>
                             </div>
                             <div>
-                                <field name="x_org1" style="width:30%%" class="oe_right"/><br/>
-                                <field name="x_org2" style="width:30%%" class="oe_right"/><br/>
-                                <field name="x_org1" style="width:30%%" class="oe_right oe_title_box_field"/><br/>
-                                <field name="x_org2" style="width:30%%" class="oe_right oe_title_box_field"/><br/>
+                                <field name="x_org1" style="width:60%%" class="oe_right"/>
+                            </div>
+                            <div>
+                                <field name="x_org2" style="width:60%%" class="oe_right"/>
+                            </div>
+                            <div>
+                                <field name="x_org1" style="width:60%%" class="oe_right oe_title_box_field"/><br/>
+                                <field name="x_org2" style="width:60%%" class="oe_right oe_title_box_field"/><br/>
                             </div>
                         </group>
                         <group>
