@@ -16,7 +16,7 @@
                         <group>
                             <div>
                             <label for="x_org1" style="width:110%%"/> 
-                            <field name="x_org1" style="width:60%%"/><br/>
+                            <field name="x_org1" style="width:30%%"/><br/>
                             </div>
                         </group>
                     </sheet>
