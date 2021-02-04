@@ -20,7 +20,7 @@
                                 <label for="x_org1" style="width:110%%"/>
                                 <label for="x_org2" style="width:110%%"/>
                             </div>
-                            <greop>
+                            <group>
                                 <field name="x_org1" style="width:30%%" class="oe_right"/><br/>
                                 <field name="x_org2" style="width:30%%" class="oe_right"/><br/>
                                 <field name="x_org1" style="width:30%%" class="oe_right oe_title_box_field"/><br/>
