@@ -15,9 +15,11 @@
                         </group>
                         <group>
                             <div>
+                            <label for="x_org1" style="width:110%%"/>
                             <label for="x_org1" style="width:110%%"/> 
                             </div>
                             <div>
+                            <field name="x_org1" style="width:30%%" class="rallign"/><br/>
                             <field name="x_org1" style="width:30%%" class="rallign"/><br/>
                             </div>
                         </group>
