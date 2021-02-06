@@ -22,10 +22,8 @@
                             <field name="x_org6" style="width:80%%"/><br/>
                             <field name="x_org6" style="width:80%%"/><br/>
                             <field name="x_org7" style="width:80%%"/><br/>
-                    
+                            <field name="x_8" style="width:80%%"/><br/>
                         </group>
-                    </sheet>
-                    <sheet>
                         <group>
                             <h4>Procesos Administrativos/Contables </h4>                   
                         </group>
