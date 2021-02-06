@@ -68,8 +68,11 @@ class Lead(models.Model):
             ('3', 'No'),
         ], "7. ¿Los Socios(as) de la Empresa/ Organización/ Cooperativa, realizan periódicamente sus aportaciones obligatorias según sus estatutos?",
     )
-    campo8 = fields.Selection(
+    x_org79 = fields.Selection(
         [
-            ('no_aplica', 'no aplica')
-        ], "hola"
+            ('0', 'No Aplica'),
+            ('1', 'Si'),
+            ('2', 'En Proceso'),
+            ('3', 'No'),
+        ], "7. ¿Los Socios(as) de la Empresa/ Organización/ Cooperativa, realizan periódicamente sus aportaciones obligatorias según sus estatutos?",
     )
