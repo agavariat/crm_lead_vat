@@ -40,7 +40,7 @@
                             <field name="x_org18" style="width:80%%"/><br/>
                             <field name="x_org19" style="width:80%%"/><br/>
                             <field name="x_org20" style="width:80%%"/><br/>
-                            <field name="x_org21" style="width:80%%"/><br>
+                            <field name="x_org21" style="width:80%%"/>
                         </group>
                     </sheet>
                 </page>
