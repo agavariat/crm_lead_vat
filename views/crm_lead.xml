@@ -22,14 +22,13 @@
                             <field name="x_org6" style="width:80%%"/><br/>
                             <field name="x_org6" style="width:80%%"/><br/>
                             <field name="x_org7" style="width:80%%"/><br/>
-                            <!--field name="x_org8" style="width:80%%"/><br/-->
                         </group>
                         <group>
                             <h4>Procesos Administrativos/Contables </h4>                   
                         </group>
                         <group>
-                            <!--> name="x_8" style="width:80%%"/><br/-->
-                            <!--field name="x_org9" style="width:80%%"/><br/>
+                            <field name="x_org8" style="width:80%%"/><br/>
+                            <field name="x_org9" style="width:80%%"/><br/>
                             <field name="x_org10" style="width:80%%"/><br/>
                             <field name="x_org11" style="width:80%%"/><br/>
                             <field name="x_org12" style="width:80%%"/><br/>
@@ -41,7 +40,7 @@
                             <field name="x_org18" style="width:80%%"/><br/>
                             <field name="x_org19" style="width:80%%"/><br/>
                             <field name="x_org20" style="width:80%%"/><br/>
-                            <field name="x_org21" style="width:80%%"/><br/-->
+                            <field name="x_org21" style="width:80%%"/><br>
                         </group>
                     </sheet>
                 </page>
