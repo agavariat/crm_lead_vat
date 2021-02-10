@@ -12,6 +12,7 @@ class Lead(models.Model):
         help="Tax Identification Number. The first 2 characters are the "
              "country code.")
 
+#Organización y Administración (15%)
     x_org1 = fields.Selection(
         [
             ('no_aplica', 'No Aplica'),
@@ -201,5 +202,15 @@ class Lead(models.Model):
             ('no', 'No'),
         ], "21. ¿Realizan procesos de auditoría interna/ externa, ambas en la empresa?",
         help="Auditoría: 1 (No hacen ningún proceso de auditoría), 2 (En proceso, están planificado hacerlo), 3 (Si, realizan auditoría interna/ externa/ ambas periódicamente)."
+    )
+    #Producción y Ambiente (15%)
+    x_pa1 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "1. ¿La empresa tiene un programa de limpieza de sus áreas de trabajo?",
+        help="Programa de limpieza y desinfección: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y está en ejecución)."
     )
 
