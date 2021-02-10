@@ -19,7 +19,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "1. ¿Cuenta la empresa con plan de trabajo semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
-        help="Programa de limpieza y desinfección: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y está en ejecución).",
+        help="Plan de Trabajo: 1 (No lo tiene), 2 (Está en proceso/ en elaboración), 3 (Si, lo tiene y está en ejecución).",
     )
     x_org2 = fields.Selection(
         [
@@ -28,6 +28,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "2. ¿Cuenta o elabora la empresa presupuesto semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
+        help="Presupuesto: 1 (No lo tiene), 2 (Está en proceso/ en elaboración), 3 (Si, lo tiene y está en ejecución).  "
     )
     x_org3 = fields.Selection(
         [
@@ -36,6 +37,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "3. ¿Cuenta la empresa con plan estratégico de desarrollo?",
+        help="Plan Estratégico: 1 (No lo tiene), 2 (Está en proceso/elaboración), 3 (Si, lo tiene y está en ejecución)"
     )
     x_org4 = fields.Selection(
         [
@@ -44,6 +46,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "4. ¿Cuenta su empresa con un organigrama publicado en un lugar visible para sus trabajadores?",
+        help="Organigrama: 1 (No lo tiene), 2 (Está en proceso/ en elaboración), 3 (Si, lo tiene y es visible y aplicado)"
     )
     x_org5 = fields.Selection(
         [
@@ -52,6 +55,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "5. ¿Cuenta la empresa con un manual de procedimientos administrativos y contables?",
+        help="Manual de Procedimientos Administrativos y Contables: 1 (No lo tiene), 2 (Está en proceso/ en elaboración), 3 (Si, lo tiene y lo usa cotidianamente)"
     ) 
     x_org6 = fields.Selection(
         [
