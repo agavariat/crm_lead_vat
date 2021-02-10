@@ -19,6 +19,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "1. ¿Cuenta la empresa con plan de trabajo semanal/ quincenal/ mensual/ trimestral/ semestral/ anual?",
+        help="Programa de limpieza y desinfección: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y está en ejecución).",
     )
     x_org2 = fields.Selection(
         [
