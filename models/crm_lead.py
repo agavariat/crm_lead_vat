@@ -64,6 +64,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "6. ¿Los Socios(as) de la Empresa/ Organización/ Cooperativa, realizan periódicamente sus aportaciones obligatorias según sus estatutos?",
+        help="Control de Aportaciones: 0 (No Aplica), 1 (No, no lo hacen), 2 (Está en proceso, unos lo hacen otros no, hay incumplimiento parcial), 3 (Si, lo hacen los socios(as) periódica y puntualmente de conformidad a sus Estatutos y se refleja en el libro de aportaciones)"
     ) 
     x_org7 = fields.Selection(
         [
@@ -72,6 +73,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "7. ¿Los Socios(as) de la Empresa/ Organización/ Cooperativa, realizan periódicamente sus aportaciones obligatorias según sus estatutos?",
+        help="Relación y desarrollo de proveedores: 0 (No Aplica), 1 (No, no ven necesidad de ningún tipo de mejoramiento en la colaboración con proveedores), 2 (Está en proceso, Ven la necesidad de evolucionar y de tomar pasos internos para la colaboración con proveedores ), 3 (Si, desarrollan capacidades y colaboración con proveedores en ciertas áeas)"
     ) 
 
     x_org8 = fields.Selection(
@@ -81,6 +83,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "8. ¿Lleva los registros y controles correspondientes en los Libros de Entradas o Ingresos ( Ventas)?",
+        help="Libro Auxiliar de Ingresos: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y lo usa cotidianamente)."
     )
     x_org9 = fields.Selection(
         [
@@ -89,6 +92,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "9. ¿Lleva los registros y controles correspondientes en los Libros de Salidas o Egresos (Compras)?",
+        help="Libro Auxiliar de Egresos: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y lo usa cotidianamente)."
     )
     x_org10 = fields.Selection(
         [
@@ -97,6 +101,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "10. ¿Lleva control y registro de caja menor?",
+        help="Control de Caja Chica: 1 (No la tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y la usa cotidianamente)"
     )
     x_org11 = fields.Selection(
         [
@@ -105,6 +110,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "11. ¿Lleva el registro y control en el Libro Auxiliar de Cuentas por Cobrar?",
+        help="Libro de Cuentas por Cobrar: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y la usa cotidianamente)"
     )
     x_org12 = fields.Selection(
         [
@@ -113,6 +119,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "12. ¿Lleva el registro y control en el Libro Auxiliar de Cuentas por Pagar?",
+        help="Libro de Cuentas por Pagar: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y la usa cotidianamente)"
     ) 
     x_org13= fields.Selection(
         [
@@ -121,6 +128,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "13. ¿Lleva el registro y control en el Libro Auxiliar de Caja, Bancos?",
+        help="Libro de Caja y Bancos: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y la usa cotidianamente)"
     ) 
     x_org14 = fields.Selection(
         [
@@ -129,6 +137,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "14. ¿Elabora Conciliaciones Bancarias?",
+        help="Conciliaciones Bancarias: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y la usa cotidianamente)"
     ) 
     x_org15 = fields.Selection(
         [
@@ -137,6 +146,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "15. ¿Lleva libro de inventario y balances de la empresa?",
+        help="Libro de Inventarios y Balance: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y la usa cotidianamente)"
     )
     x_org16 = fields.Selection(
         [
@@ -145,6 +155,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "16. ¿La empresa elabora planillas para el pago de sus trabajadores?",
+        help="Planilla de Pagos de Personal: 0 (No aplica, es de autoempleo), 1 (No la tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y la usa cotidianamente)"
     )
     x_org17 = fields.Selection(
         [
@@ -153,6 +164,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "17. ¿ Elabora los Estados Financieros: Estado de Resultados y Balance General?",
+        help="Sistema Contable (Manual/ Automatizado): 1 (No tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y usa cotidianamente)"
     )
     x_org18 = fields.Selection(
         [
@@ -161,6 +173,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "18. ¿Lleva el control del Flujo de Efectivo de su empresa (flujo de caja)?",
+        help="Flujo de Efectivo: 1 (No los elabora), 2 (Está en proceso de adopción), 3 (Si, los elabora periódicamente)"
     ) 
     x_org19= fields.Selection(
         [
@@ -169,6 +182,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "19. ¿Cuenta con un Sistema Contable (Manual o Automatizado)?",
+        help="Sistema Contable (Manual/ Automatizado): 1 (No tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y usa cotidianamente)"
     ) 
     x_org20 = fields.Selection(
         [
@@ -177,6 +191,7 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "20. ¿Ha contrado un contador colegiado para el manejo de su contabilidad?",
+        help="Contratación de Servicios Contables: 1 (No los contrata), 2 (En proceso, está planificado hacerlo), 3 (Si, los contrata periódicamente)."
     ) 
     x_org21 = fields.Selection(
         [
@@ -185,5 +200,6 @@ class Lead(models.Model):
             ('en_proceso', 'En Proceso'),
             ('no', 'No'),
         ], "21. ¿Realizan procesos de auditoría interna/ externa, ambas en la empresa?",
+        help="Auditoría: 1 (No hacen ningún proceso de auditoría), 2 (En proceso, están planificado hacerlo), 3 (Si, realizan auditoría interna/ externa/ ambas periódicamente)."
     )
 
