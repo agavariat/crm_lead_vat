@@ -81,18 +81,17 @@
                         <group style = "line-height: 25px;" string="Análisis Financiero">                
                         </group>
                         <group>
-                            <field name="x_pa1" style="width:80%%"/><br/>
-                            <field name="x_pa2" style="width:80%%"/><br/>
-                            <field name="x_pa3" style="width:80%%"/><br/>
-                            <field name="x_pa4" style="width:80%%"/><br/>
-                            <field name="x_pa5" style="width:80%%"/><br/>
-                            <field name="x_pa6" style="width:80%%"/><br/>
-                            <field name="x_pa7" style="width:80%%"/><br/>
-                            <field name="x_pa8" style="width:80%%"/><br/>
-                            <field name="x_pa9" style="width:80%%"/><br/>
-                            <field name="x_pa10" style="width:80%%"/><br/>
-                            <field name="x_pa11" style="width:80%%"/><br/>
-                            <field name="x_pa12" style="width:80%%"/><br/>
+                            <field name="x_fa1" style="width:80%%"/><br/>
+                            <field name="x_fa2" style="width:80%%"/><br/>
+                            <field name="x_fa3" style="width:80%%"/><br/>
+                            <field name="x_fa4" style="width:80%%"/><br/>
+                            <field name="x_fa5" style="width:80%%"/><br/>
+                            <field name="x_fa6" style="width:80%%"/><br/>
+                            <field name="x_fa7" style="width:80%%"/><br/>
+                            <field name="x_fa8" style="width:80%%"/><br/>
+                            <field name="x_fa9" style="width:80%%"/><br/>
+                            <field name="x_fa10" style="width:80%%"/><br/>
+                            <field name="x_fa11" style="width:80%%"/><br/>
                         </group>
                     </sheet>
                 </page>

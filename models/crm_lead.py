@@ -367,13 +367,112 @@ class Lead(models.Model):
         ], "18. ¿La empresa se integra en alguna actividad que contribuye a la conservación de fuentes de agua, otros recursos naturales?",
         help="Conservación de recursos naturales: 1 (No, no participa en acciones de conservación de recursos naturales, ni tiene planificado hacerlo), 2  (Está en proceso, se está capacitando sobre el tema, esta sensibilizado/ ya ha planificado participar en acciones de conservación de recursos naturales, servicios ecosistémicos), 3 (Está participando la empresa en acciones voluntarias de conservación de recursos naturales/ en mecanismos de compensación de servicios ecosistémicos, otras)."
     )
-
-
-
-
-
-
-
-
-
-
+    #Análisis Financiero (15%)
+    x_fa1 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "1. ¿Para determinar el precio de los productos/ servicios la empresa considera los costos fijos y variables?",
+        help="Método para determinar precios: 1 (No lo hace), 2 (Está en proceso de adopción), 3 (Si, lo hace y los utiliza para determinar precios de los productos y/o servicios)."
+    )
+    x_fa2 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "2. ¿Lleva la empresa registro de inventarios de materias primas, producto en proceso y terminado?",
+        help="Control de inventarios: 1 (No lo hace), 2 (Está en proceso de adopción), 3 (Si, lo hace y levantan periódicamente los inventarios y la información la utilizan para preparar estados financieros)."
+    )
+    x_fa3 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "3. ¿Realiza la empresa retención de impuesto sobre ventas y hace su declaración mensual a la DIAN?",
+        help="Retención y declaración de impuesto sobre ventas (ISV): 0 (No Aplica, esta acogida al Monotributo), 1 (No, no sabe, no realiza retención ni declaración), 2 (En proceso, está reuniendo requisitos para ser retenedor de ISV), 3 (Si, es retenedor de impuesto sobre ventas y los declara mensualmente)."
+    )
+    x_fa4 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "4. ¿Realiza la empresa declaración anual de Impuesto Sobre la Renta (DIAN)?",
+        help="Declaración de Impuesto Sobre la Renta (ISR): 0 (No Aplica, ), 1 (No, no sabe, no realiza declaración), 2 (En proceso, está en proceso para realizar declaración de impuesto sobre la renta), 3 (Si, realiza anualmente ejercicio de declaración de ISR)."
+    )
+    x_fa5 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "5. ¿Realiza la empresa declaración  de sus ingresos a la Alcaldia Municipal (ICA)?",
+        help="Declaración de Ingresos a la municipalidad: 1 (No, no sabe, no realiza declaración), 2 (En proceso, está en proceso para realizar declaración a la Alcaldía Municipal, unos meses si, otros no), 3 (Si, realiza periódicamente el ejercicio de declarar ingresos a la Alcaldía Municipal)."
+    )
+    x_fa6 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "6. ¿Conoce el nivel de ventas en la que su empresa cubre sus costos? (Punto de Equilibrio)",
+        help="Punto de equilibrio: 1 (No sabe del tema), 2 (Está en proceso de formación, conociendo método para calcularlo), 3 (Si, conoce el nivel de producción y/o ventas en Lempiras donde sus ingresos igualan los costos de producción)."
+    )
+    x_fa7 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "7. ¿Conoce la empresa su capacidad de endeudamiento? ",
+        help="Capacidad de endeudamiento: 1 (No lo tiene, desconoce del tema), 2 (Está en proceso, la empresa está realizando ejercicio de conocer su capacidad para cumplir con requisitos que le exigen los agentes financieros), 3 (Si, la empresa conoce con exactitud su nivel de liquidez para cumplir con los compromisos y su nivel de solvencia para pagar esos compromisos)."
+    )
+    x_fa7 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "7. ¿Conoce la empresa su capacidad de endeudamiento? ",
+        help="Capacidad de endeudamiento: 1 (No lo tiene, desconoce del tema), 2 (Está en proceso, la empresa está realizando ejercicio de conocer su capacidad para cumplir con requisitos que le exigen los agentes financieros), 3 (Si, la empresa conoce con exactitud su nivel de liquidez para cumplir con los compromisos y su nivel de solvencia para pagar esos compromisos)."
+    )
+    x_fa8 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "8. Capacidad de endeudamiento: 1 (No lo tiene, desconoce del tema), 2 (Está en proceso, la empresa está realizando ejercicio de conocer su capacidad para cumplir con requisitos que le exigen los agentes financieros), 3 (Si, la empresa conoce con exactitud su nivel de liquidez para cumplir con los compromisos y su nivel de solvencia para pagar esos compromisos).",
+        help="Gestión de préstamos: 0 (No Aplica, no tiene interés en préstamos), 1 (No ha realizado gestiones, no es elegible su empresa por el sistema financiero), 2 (Está en proceso de reunir requisitos para optar a la oferta de servicios financieros del medio, tiene en gestión un préstamo), 3 (Si, ha recibido préstamo de una entidad de servicios financieros y está activo en su pago)."
+    )
+    x_fa9 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "9. ¿Tiene la empresa un plan de inversiones?",
+        help="Plan de inversión: 1 (No lo tiene, desconoce del tema), 2 (Está en proceso, la empresa está realizando ejercicio de planificar sus inversiones para crecimiento empresarial), 3 (Si, la empresa tiene un plan de inversiones y está en ejecución conforme el plan establecido)."
+    )
+    x_fa10 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "10. ¿Tiene la empresa un plan de negocios elaborado/ en ejecución?",
+        help="Modelo/Plan de negocios: 1 (No lo tiene, desconoce del tema), 2 (Está en proceso, la empresa está elaborando su documento de modelo de negocio), 3 (si, la empresa tiene un modelo/plan de negocios y se está ejecutando a conformidad)."
+    )
+    x_fa11 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "11. ¿En la empresa toman decisiones con base a información financiera?",
+        help="Análisis financiero: 1 (No lo tiene, desconoce del tema), 2 (Está en proceso, la empresa está en proceso de preparar información financiera para elaborar análisis), 3 (Si, la empresa tienen información financiera que le permite conocer la justa realidad de su situación financiera y evalúa su gestión)."
+    )
