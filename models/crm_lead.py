@@ -213,4 +213,167 @@ class Lead(models.Model):
         ], "1. ¿La empresa tiene un programa de limpieza de sus áreas de trabajo?",
         help="Programa de limpieza y desinfección: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y está en ejecución)."
     )
+    x_pa2 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "2.  ¿La empresa cuenta con un plan de seguridad y prevención de contingencias?",
+        help="Plan de seguridad y contingencias: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y está en ejecución)"
+    )
+    x_pa3 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "3.  ¿Tiene la empresa diagramas de flujo de sus procesos?",
+        help="Flujo de Procesos: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene y lo utilizan para administrar la producción)."
+    )
+    x_pa4 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "4.  ¿Cuenta la empresa con una base de datos/ red de proveedores de materias primas, insumos, otros necesarios para el aseguramiento de sus procesos productivos?",
+        help="Base de datos de proveedores: 1 (No la tiene establecida), 2 (Está en proceso de adopción), 3 (Si, lo tiene y lo utilizan para asegurar la producción)."
+    )
+    x_pa5 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "5.  ¿Se tiene en la empresa definidos los estándares de los procesos de producción de los productos/servicios que vende?",
+        help="Estándares de procesos productivos: 1 (No, no los tienen definidos), 1 (Está en proceso, los están definiendo, en proceso de adopción), 3 (Si, tienen definidos los estándares de los procesos productivos y los implementan)."
+    )
+    x_pa6 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "6.  ¿Tiene su empresa un sistema de control/ gestion de calidad adoptado e implementado?",
+        help="Control/ gestión de la calidad: 1 (No lo tiene establecido), 2 (Está en proceso de adopción), 3 (Si, lo tiene y es parte integral de la filosofía, sistema de valores de la empresa)."
+    )
+    x_pa7 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "7.  ¿La empresa sabe cuáles son los costos de cada etapa del proceso de producción?",
+        help="Costeo del producto: 1 (No lo hace), 2 (Está en proceso de adopción), 3 (Si, lo hace y lo utilizan para administrar la producción)."
+    )
+    x_pa8 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "8. ¿La empresa desarrolla prototipos de productos con el objetivo de innovar, asegurar calidad y lanzar nuevos productos al mercado?",
+        help="Desarrollo de prototipos: 1 (No lo hace), 2 (Está en proceso de adopción), 3 (Si, lo hace y lo utilizan para lanzar nuevos productos y/o servicios al mercado)."
+    )
+    x_pa9 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "9. ¿Tiene la empresa un plan/programa de mantenimiento preventivo (Instalaciones, maquinaria, equipo, herramientas, otros)?",
+        help="Plan/Programa de mantenimiento preventivo: 1 (No lo tiene), 2 (Está en proceso de adopción), 3 (Si, lo tiene, asignan presupuesto y lo realizan acciones periódicamente en la empresa)."
+    )
+    x_pa10 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "10. ¿Es adecuado el nivel tecnológico de la maquinaria?",
+        help="Tecnología de la maquinaria: 1 (tecnología básica de la maquinaria), 2 (en proceso de reconversión, se tiene algunas maquinaría de tecnología de punta), 3 (Si, en su mayoria se tiene maquinaria de tecnología de punta)."
+    )
+    x_pa11 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "11. ¿Es adecuado el grado de obsolescencia y estado de conservación de la maquinaria?",
+        help="Grado de obsolecencia de la maquinaria: 1 (maquinaria obsoltea y en mal estado), 2 (maquinaria obsoleta pero en excelente estado), 3 (Si, maquinaria actualizada y en buen estado)."
+    )
+    x_pa12 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "12. ¿El nivel de suficiencia o cobertura de la maquiaria es adecuada al mercado actual? ",
+        help="Nivel de Suficiencia de la maquinaría: 1. (insuficiente para la necesidad del mercado), 2 (muy ajustada a la necesidad del mercado), 3 (maquinaria suficiente y un porcentaje extra para altas demanadas y crecimiento proyectado)"
+    )
+    #Ambiente
+    x_pa13 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "13. ¿Tiene su empresa un plan ambiental? ",
+        help="Plan ambiental: 1 (No conoce del tema, no tiene plan ambiental, ni planificado elaborarlo), 2 (Está en proceso de elaboración/ adopción, se está capacitando), 3 (Si, lo tiene y está en ejecución continua)."
+    )
+    x_pa14 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "14.  ¿Tiene la empresa un plan de manejo de desechos sólidos?",
+        help="Plan de manejo de desechos sólidos: 0 (No Aplica, no genera desechos sólidos con su actividad), 1 (No conoce del tema, no tiene planificado elaborarlo), 2 (Está en proceso de elaboración/ adopción), 3 (Lo tiene y está en ejecución continua)."
+    )
+    x_pa15 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "15. ¿Tiene la empresa un plan de manejo de desechos líquidos? ",
+        help="Plan de manejo de desechos líquidos: 0 (No Aplica, no genera desechos líquidos con su actividad) 1 (No conoce del tema, no tiene planificado elaborarlo), 2 (Está en proceso de elaboración/ adopción), 3 (Lo tiene y está en ejecución continua)."
+    )
+    x_pa16 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "16. ¿Recicla o reusa sus desechos?",
+        help="Plan/Programa de reciclaje: 1 (No conoce del tema, no tiene planificado elaborarlo), 2 (Está en proceso de elaboración/ adopción), 3 (Lo tiene y está en ejecución continua)."
+    )
+    x_pa17 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "17. ¿Ha adoptado la empresa alguna medida para disminuir el consumo de energía?",
+        help="Eficiencia energética: 1 (No tiene plan/programa de reducción de consumo de energía), 2 (Está en proceso de elaboración y adopción), 3 (Tiene un programa de eficiencia energética en ejecución)."
+    )
+    x_pa18 = fields.Selection(
+        [
+            ('no_aplica', 'No Aplica'),
+            ('si', 'Si'),
+            ('en_proceso', 'En Proceso'),
+            ('no', 'No'),
+        ], "18. ¿La empresa se integra en alguna actividad que contribuye a la conservación de fuentes de agua, otros recursos naturales?",
+        help="Conservación de recursos naturales: 1 (No, no participa en acciones de conservación de recursos naturales, ni tiene planificado hacerlo), 2  (Está en proceso, se está capacitando sobre el tema, esta sensibilizado/ ya ha planificado participar en acciones de conservación de recursos naturales, servicios ecosistémicos), 3 (Está participando la empresa en acciones voluntarias de conservación de recursos naturales/ en mecanismos de compensación de servicios ecosistémicos, otras)."
+    )
+
+
+
+
+
+
+
+
+
 
